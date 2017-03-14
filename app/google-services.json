@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "341378923017",
+    "firebase_url": "https://elearningchat-c413e.firebaseio.com",
+    "project_id": "elearningchat-c413e",
+    "storage_bucket": "elearningchat-c413e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341378923017:android:b9020c6a2078eaa3",
+        "android_client_info": {
+          "package_name": "com.example.progtobi.e_learning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341378923017-2srll3kaclm28mehsl4e9iiqsnds3f2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeFOLOSqlvkBeUXwwaSY1ThwhRNA008Qw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

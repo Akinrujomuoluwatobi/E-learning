@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.progtobi.e_learning.ElearningStaff">
+
+    <item
+        android:id="@+id/administercourse"
+        android:title="Administer Course"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/uploadbooks"
+        android:title="Upload Books"
+        android:orderInCategory="101" />
+</menu>

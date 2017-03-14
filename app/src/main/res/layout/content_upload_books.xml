@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_upload_books"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.progtobi.e_learning.UploadBooks"
+    tools:showIn="@layout/activity_upload_books">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrow3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <FrameLayout
+                android:id="@+id/bookimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/uploadthumbnail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/upload_img" />
+
+                <TextView
+                    android:id="@+id/clickimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:padding="5dp"
+                    android:text="Click to upload book thumbnail"
+                    android:textSize="15dp" />
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/uploadbookname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/bookname"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="@string/book_name"
+                android:padding="10dp"
+                android:textSize="25sp">
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/uploadbookauthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/bookname"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="@string/book_author"
+                android:padding="10dp"
+                android:textSize="25sp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/uploadbookdesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/description"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="Book Description"
+                android:lines="2"
+                android:padding="10dp"
+                android:textSize="25sp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/uploadbookbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@string/font_type"
+                android:text="@string/upload_books"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:padding="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

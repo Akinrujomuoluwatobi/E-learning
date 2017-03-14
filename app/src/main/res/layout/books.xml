@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_marginLeft="100dp"
+        >
+
+        <TextView
+            android:id="@+id/bname"
+            android:paddingLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginTop="16dp"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/bauthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <FrameLayout
+               android:id="@+id/pixcolumn"
+               android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+               <ImageView
+                   android:id="@+id/bimage"
+                   android:layout_width="90dp"
+                   android:layout_height="90dp"
+                   android:layout_marginTop="2dp"
+                   android:adjustViewBounds="true"
+                   android:contentDescription="@null"
+                   android:scaleType="centerCrop"
+                   android:src="@drawable/image_view" />
+
+
+           </FrameLayout>
+
+</RelativeLayout>
